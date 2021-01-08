@@ -16,7 +16,11 @@
 
    $email_body = "User Name: $visitor_name. \n". 
                "User Email: $visitor_email. \n". 
-               "User Phone: $visitor_phone. \n". 
+               "User Phone: $visitor_phone. \n".
+               "User Address $visitor_address1. \n".
+               "User City $visitor_city. \n".
+               "User State $visitor_state. \n".
+               "User Zip   $visitor_zip. \n".
                       "User Message: $message. \n";
 
    $to = "brian.barker@leansolutionsllc.com";
@@ -30,7 +34,7 @@
 
 	
 	
-  header('Location: https://bbarker47.github.io/SinkOrSwim/thankyou.html');
+  header('Location: http://leansolutionllc.com/thankyou.html');
 
 ?>
 
