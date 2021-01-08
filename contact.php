@@ -30,7 +30,7 @@
 
 	
 	
-  header('Location: /thankyou.html');
+  header('Location: https://bbarker47.github.io/SinkOrSwim/thankyou.html');
 
 ?>
 
