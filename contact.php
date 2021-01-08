@@ -34,7 +34,7 @@
 
 	
 	
-  header('Location: http://leansolutionllc.com/thankyou.html');
+  header('Location: http://www.sinkorswimpool.com/thankyou.html');
 
 ?>
 

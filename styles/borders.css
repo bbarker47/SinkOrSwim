@@ -7,26 +7,30 @@
 
 
 
-.navigation-wrapper > .logo-container > .column-wrapper > .left-column-wrapper {border: 3px transparent orange;}
-.navigation-wrapper > .logo-container > .column-wrapper > .left-column-wrapper > .left-column {border: 3px transparent blue;}
-.navigation-wrapper > .logo-container > .column-wrapper > .left-column-wrapper > .left-column > .icon {border: 3px transparent green;}
-.navigation-wrapper > .logo-container > .column-wrapper > .left-column-wrapper > .left-column > .contact-hours-wrapper{border: 3px transparent pink;}
-.navigation-wrapper > .logo-container > .column-wrapper > .left-column-wrapper > .left-column > .contact-hours-wrapper > .phone{border: 1px transparent yellowgreen;}
-.navigation-wrapper > .logo-container > .column-wrapper > .left-column-wrapper > .left-column > .contact-hours-wrapper > .hours{border: 1px transparent lightblue;}
+.navigation-wrapper > .logo-container > .column-wrapper > .left-column-wrapper {border: 3px solid orange;}
+.navigation-wrapper > .logo-container > .column-wrapper > .left-column-wrapper > .left-column {border: 3px solid blue;}
+.navigation-wrapper > .logo-container > .column-wrapper > .left-column-wrapper > .left-column > .icon {border: 3px solid green;}
+.navigation-wrapper > .logo-container > .column-wrapper > .left-column-wrapper > .left-column > .contact-hours-wrapper{border: 3px solid pink;}
+.navigation-wrapper > .logo-container > .column-wrapper > .left-column-wrapper > .left-column > .contact-hours-wrapper > .phone{border: 1px solid yellowgreen;}
+.navigation-wrapper > .logo-container > .column-wrapper > .left-column-wrapper > .left-column > .contact-hours-wrapper > .phone > .phone-number{border: 1px solid red;}
+.navigation-wrapper > .logo-container > .column-wrapper > .left-column-wrapper > .left-column > .contact-hours-wrapper > .phone > .call-me{border: 1px solid black;}
+.navigation-wrapper > .logo-container > .column-wrapper > .left-column-wrapper > .left-column > .contact-hours-wrapper > .hours{border: 1px solid lightblue;}
 
 
 
-.navigation-wrapper > .logo-container > .banner-image-wrapper {border: 3px transparent violet;}
-.navigation-wrapper > .logo-container > .banner-image-wrapper > .banner-image {border: 3px transparent blue;}
+.navigation-wrapper > .logo-container > .banner-image-wrapper {border: 3px solid violet;}
+.navigation-wrapper > .logo-container > .banner-image-wrapper > .banner-image {border: 3px solid blue;}
 
 
-.navigation-wrapper > .logo-container > .column-wrapper > .right-column-wrapper {border: 3px transparent green;}
-.navigation-wrapper > .logo-container > .column-wrapper > .right-column-wrapper > .right-column {border: 3px transparent blue;}
+.navigation-wrapper > .logo-container > .column-wrapper > .right-column-wrapper {border: 3px solid green;}
+.navigation-wrapper > .logo-container > .column-wrapper > .right-column-wrapper > .right-column {border: 3px solid red;}
+.navigation-wrapper > .logo-container > .column-wrapper > .right-column-wrapper > .right-column >.sharing-title {border: 3px solid blue;}
+.navigation-wrapper > .logo-container > .column-wrapper > .right-column-wrapper > .right-column > .fb-share-button {border: 3px solid green;}
 
-.navigation-wrapper > .logo-container > .column-wrapper > .right-column-wrapper > .right-column > .address-wrapper {border: 3px transparent green;}
+.navigation-wrapper > .logo-container > .column-wrapper > .right-column-wrapper > .right-column > .address-wrapper {border: 3px solid green;}
 
 
-.navigation-wrapper > .logo-container > .column-wrapper > .right-column-wrapper > .right-column > .contact-icon {border: 3px transparent pink;}
+.navigation-wrapper > .logo-container > .column-wrapper > .right-column-wrapper > .right-column > .contact-icon {border: 3px solid pink;}
 
  .links-container {border: 1px transparent green;}
  .links-container > .nav-link{border: 1px transparent black;}
@@ -91,3 +95,6 @@
 .maintain-title{border: 2px transparent pink}
 .maintain-wrapper{border: 3px solid red}
 .outer-maintain-wrapper{border: 3px solid purple}
+
+
+

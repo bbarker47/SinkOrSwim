@@ -53,6 +53,8 @@
     .features-section > .columns-wrapper > .column :nth-child(2){
         height:20px;
     }
+
+
     .footer {
         height: 100%;
     }
@@ -290,3 +292,35 @@
 
 
 }
+
+@media only screen and (max-width: 800px) {
+
+    .navigation-wrapper > .logo-container > .column-wrapper > .left-column-wrapper > .left-column > .icon {
+        margin-right: 1px;
+    }
+
+    .phone-number {
+        font-size: .8em;
+    }
+
+    .call-me {
+        font-size: .7em;
+    }
+
+    .navigation-wrapper > .logo-container > .column-wrapper > .right-column-wrapper > .right-column > .sharing-title {
+        display: none;
+    }
+
+
+    .map iframe{
+        width:500px; 
+    }
+
+
+}
+
+@media only screen and (max-width: 400px) {
+    .map iframe{
+        width:300px; 
+    }
+    

@@ -316,10 +316,24 @@
 
 
         .navigation-wrapper > .logo-container > .column-wrapper > .left-column-wrapper > .left-column > .contact-hours-wrapper > .phone{
-            font-family: 'Ubuntu Condensed', sans-serif;
-            font-size: 0.8em;
+            display:flex;
+            flex-direction: column;
+            align-items: center;
         }
 
+        .phone-number{
+            font-family: 'Ubuntu Condensed', sans-serif;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+
+
+        .call-me{
+            font-family: 'Ubuntu Condensed', sans-serif;
+            font-size: .9em;
+            
+
+        }
         .navigation-wrapper > .logo-container > .column-wrapper > .left-column-wrapper > .left-column > .icon > .fa-phone-volume {
             color: rgb(6, 216, 205);
         }
@@ -336,6 +350,18 @@
             align-items: center;
         }
         .navigation-wrapper > .logo-container > .column-wrapper > .center-column-wrapper > .center-column > .hours{
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .hours-time {
+            font-family: 'Ubuntu Condensed', sans-serif;
+            font-size: 1em;
+        }
+
+
+        .hours-dow{
             font-family: 'Ubuntu Condensed', sans-serif;
             font-size: 0.8em;
         }
@@ -350,18 +376,16 @@
 
         .navigation-wrapper > .logo-container > .column-wrapper > .right-column-wrapper > .right-column {
             display: flex; 
-
+            flex-direction: column;
+            align-items: center;
         }
 
-        .navigation-wrapper > .logo-container > .column-wrapper > .right-column-wrapper > .right-column > .address-wrapper {
+        .navigation-wrapper > .logo-container > .column-wrapper > .right-column-wrapper > .right-column > .sharing-title {
             font-family: 'Ubuntu Condensed', sans-serif;
         }
 
-        .navigation-wrapper > .logo-container > .column-wrapper > .right-column-wrapper > .right-column >.address-wrapper a{
-            color: #072bcc;
-            text-decoration: none;
-            font-size: 0.8em;
-            transition: 0.5s;
+        .navigation-wrapper > .logo-container > .column-wrapper > .right-column-wrapper > .right-column >.fb-share-button{
+            margin-top:10px;
         }
 
         .navigation-wrapper > .logo-container > .column-wrapper > .right-column-wrapper > .right-column >.address-wrapper a:hover{
@@ -477,8 +501,22 @@
             transition: 1s;
         }
 
+        .map-wrapper{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color : #eafbff;
+            box-shadow: inset 0px 0px 40px 0px rgba(0, 196, 244, 0.50);
+            padding:15px;
+        }
         .map{
             margin-bottom: -5px;
+        }
+
+        .map iframe{
+            width:900px; 
+            height:480px;
+            border: 1px solid #06d8cd;
         }
 
 /* ===  faq.html === */
