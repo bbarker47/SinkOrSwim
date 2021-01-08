@@ -10,9 +10,8 @@
 	$visitor_state = $_POST['state'];
 	$visitor_zip = $_POST['zip'];
    $message = $_POST['message'];
-   $attach1 = $_POST['r2c1_file'];
 
-   $email_subject = "LeanSol,LLC - Contact Form - ";
+   $email_subject = "Sink Or Swim Pools - Contact Form - ";
    $email_subject .= $visitor_name;
 
    $email_body = "User Name: $visitor_name. \n". 
@@ -27,11 +26,11 @@
 
 
 
-var_dump($_POST);
+//var_dump($_POST);
 
 	
 	
-//   header('Location: http://localhost/clients/contact_test/thankyou.html');
+  header('Location: /thankyou.html');
 
 ?>
 

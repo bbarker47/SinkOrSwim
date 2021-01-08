@@ -911,3 +911,17 @@
         display:flex;
         justify-content: center;
     }                
+
+
+/* ===== thankyou.html ==== */
+    .thankyou-wrapper{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .thankyou-pool{
+        display;flex;
+        justify-content: center;
+        border: 1px solid#06d8cd;
+    }
