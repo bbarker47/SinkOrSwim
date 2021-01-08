@@ -1,0 +1,93 @@
+/* =======  index.html ======= */
+.navigation-wrapper{border: 1px transparent black;}
+
+.logo-container {border: 3px transparent royalblue;}
+.navigation-wrapper > .logo-container > .column-wrapper{border: 3px transparent red;}
+
+
+
+
+.navigation-wrapper > .logo-container > .column-wrapper > .left-column-wrapper {border: 3px transparent orange;}
+.navigation-wrapper > .logo-container > .column-wrapper > .left-column-wrapper > .left-column {border: 3px transparent blue;}
+.navigation-wrapper > .logo-container > .column-wrapper > .left-column-wrapper > .left-column > .icon {border: 3px transparent green;}
+.navigation-wrapper > .logo-container > .column-wrapper > .left-column-wrapper > .left-column > .contact-hours-wrapper{border: 3px transparent pink;}
+.navigation-wrapper > .logo-container > .column-wrapper > .left-column-wrapper > .left-column > .contact-hours-wrapper > .phone{border: 1px transparent yellowgreen;}
+.navigation-wrapper > .logo-container > .column-wrapper > .left-column-wrapper > .left-column > .contact-hours-wrapper > .hours{border: 1px transparent lightblue;}
+
+
+
+.navigation-wrapper > .logo-container > .banner-image-wrapper {border: 3px transparent violet;}
+.navigation-wrapper > .logo-container > .banner-image-wrapper > .banner-image {border: 3px transparent blue;}
+
+
+.navigation-wrapper > .logo-container > .column-wrapper > .right-column-wrapper {border: 3px transparent green;}
+.navigation-wrapper > .logo-container > .column-wrapper > .right-column-wrapper > .right-column {border: 3px transparent blue;}
+
+.navigation-wrapper > .logo-container > .column-wrapper > .right-column-wrapper > .right-column > .address-wrapper {border: 3px transparent green;}
+
+
+.navigation-wrapper > .logo-container > .column-wrapper > .right-column-wrapper > .right-column > .contact-icon {border: 3px transparent pink;}
+
+ .links-container {border: 1px transparent green;}
+ .links-container > .nav-link{border: 1px transparent black;}
+
+
+
+
+        .pool-shots{border: 1px transparent black;}
+        .text-overlay1{border: 1px transparent black;}
+        .text-overlay2{border: 1px transparent black;}
+
+    
+    .features-section{border: 1px transparent black;}
+        .columns-wrapper{border: 1px transparent black;}
+            .cColumn{border: 1px transparent black;}
+    
+    .map{border: 1px transparent black;}
+    
+
+    .footer{border: 1px transparent black;}
+        .logo-footer{border: 1px transparent black;}
+        .footer-phone-hours{border: 1px transparent black;}
+
+    .footer > .social-media-icons-wrapper{border: 1px transparent green;}
+    .footer > .copyright-wrapper{border: 1px transparent black;}
+    .footer > .webmaster-wrapper{border: 1px transparent red;}
+            
+    
+
+/* =====  about.html ====== */
+
+.page-header{border: 3px transparent black;}    
+.skewed-header {border: 3px transparent red;}
+        .header-bg {border: 1px transparent black;}
+        .skewed-header-wrapper {border: 3px transparent purple;}
+            .skewed-header-content {border: 1px transparent black;}
+                .heading-wrapper {border: 3px transparent black;}
+    .about-links-wrapper {border: 1px transparent black;}
+        .about-nav-link {border: 1px transparent black;}
+    
+    .page-container {border: 2px transparent black;}
+        .content-wrapper {border: 1px transparent red;}
+            .img {border: 1px transparent black;}
+    .spacer10 {border: 1px transparent black;}
+    
+    .squares-wrapper {border: 1px transparent black;}
+    .squares-wrapper > .squares {border: 1px transparent black;}
+    .squares-wrapper > .square {border: 1px transparent black;}
+     .square > .img-wrapper {border: 1px transparent black;}
+     .square > .square-text-wrapper {border: 1px transparent black;}
+     .square >.square-text-wrapper > .about-text {border: 1px transparent black;}
+    
+
+/* ====== repair.html ====== */
+
+.service-title-wrapper{border: 2px transparent orange}
+.service-title-container{border: 2px transparent blue}
+.repair-bullet-wrapper{border: 5px transparent purple}
+.repair-bullet-container{border: 2px transparent red}
+
+
+.maintain-title{border: 2px transparent pink}
+.maintain-wrapper{border: 3px solid red}
+.outer-maintain-wrapper{border: 3px solid purple}

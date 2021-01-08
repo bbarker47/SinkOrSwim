@@ -1,0 +1,292 @@
+
+
+@media only screen and (max-width: 1050px)  {
+    /* 615px = standard size for smart phones */
+    .navigation-wrapper > .logo-container{
+        display:flex;
+        flex-direction: column;
+        }
+
+     .navigation-wrapper > .logo-container > .banner-image-wrapper {
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .navigation-wrapper > .logo-container > .column-wrapper {
+        margin-left: 2px;
+        margin-right:10px;
+        
+    }
+
+    .navigation-wrapper > .logo-container > .column-wrapper > .right-column-wrapper > .right-column > .contact-icon {
+        margin-left:5px;
+        margin-right:10px;
+    }
+
+
+  .links-container {
+        margin-left: 0px;
+    }
+
+
+
+
+    .features-section {
+        height: 100%;
+    }
+
+    .features-section > .columns-wrapper {
+        width: 100%;
+        flex-direction: column;
+
+    }
+
+    .features-section > .columns-wrapper > .column{
+        padding:5px;
+        margin:0px;
+        margin-top:10px;
+        /* margin-bottom:10px; */
+    }
+
+    .features-section > .columns-wrapper > .column :nth-child(2){
+        height:20px;
+    }
+    .footer {
+        height: 100%;
+    }
+
+
+/* ----- about.html ----- */
+
+    .skewed-header{
+         height: 100px;   
+    }
+
+
+    .heading-wrapper {
+        width:100px;
+        padding: 3px;
+    }
+
+    .heading-wrapper h1{
+        font-size: 1.25em;
+        
+    }
+
+
+
+    .page-container {
+        padding-left: 21px;
+        padding-right: 21px;
+
+    }
+
+    .content-wrapper > #chef {
+        margin: 20px 0px 25px 0px !important;
+        width: 100% !important;
+    }
+
+    .about-wrapper{
+        margin-left: 10px;
+    }
+
+    .about-details-wrapper{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .about-image-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .about-image-container img {
+            width: 150px;
+            height: 150px;
+    }
+
+
+    .about-text-wrapper {
+        margin-left:10px;
+        margin-right: 10px;
+    }
+
+    .about-title-container {
+        display: flex;
+        justify-content: center;
+    }
+    .about-text-wrapper h1 {
+        font-size: 1.25em !important;
+    }
+
+
+    .teams-image-container > #trucks {
+        margin: 0px 0px 25px 0px !important;
+        width: 100% !important;
+    }
+/* ------ repair.html ------ */
+
+    .content-wrapper > #equipment {
+        margin: 20px 0px 25px 0px !important;
+        width: 100% !important;
+    }
+
+    .repair-bullet-wrapper{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .repair-bullet-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* --- maintain --- */
+
+
+
+    .maintain-details-wrapper{
+        display:flex;
+        flex-direction: column;
+        align-items:center;
+    }
+    
+    
+    .maintain-title h1 {
+        font-size: 1.25em;
+    }
+
+    .maintain-title h3 {
+        font-size: .9em;
+    }
+
+
+    #plus{
+        color:red;
+    }
+    .maintain-title-container{
+        display:flex;
+        flex-direction: column;
+        align-items:center;
+    }
+
+    .maintain-title-container h1 {
+        font-size: 1.25em;
+    }
+
+    .maintain-title-container h3 {
+        font-size: .9em;
+    }
+
+    .maintain-text-container{
+        display:flex;
+        justify-content: center;
+    }
+    .maintain-text-container ul li{
+        font-size: .75em;
+    }
+    .maintain-images-wrapper {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0px;
+    }
+
+    .maintain-images-wrapper img{
+             width: 375px !important;
+    }
+
+    .maintain-text-wrapper{
+        margin-left:0px;
+    }
+    .maintain-image-container img {
+        width: 150px;
+        height: auto;
+    }
+
+
+    .teams-image-container > #pool-love {
+        margin: 0px 0px 25px 0px !important;
+        width: 375px !important;
+    }
+
+
+
+    /* --- contact.html ------ */
+        .contact-page-container{
+            flex-direction: column-reverse;
+            align-items: center;
+        }
+
+
+        .contact-grid-wrapper{
+            width:370px;
+            padding-left: 0px;
+            align-items: center;
+        }
+
+        .input-form-container{
+            width:350px;
+            margin-left:2px;
+            
+        }
+
+        .contact-form-grid-wrapper > .input-form-container{
+            width:350px;
+        }
+
+        .form > .form-group {
+            width: 350px;
+            margin-top: 2px;
+        }
+
+        #love {
+            font-size:1.5em;
+        }
+
+        #please-send-note{
+            font-size: 1.25em;
+        }
+
+        .form input{
+            font-size: 1em;
+        }
+        .form > .csz-container{
+            display:grid;
+            grid-template-columns: 250px 40px 60px;
+            margin-top:2px;
+            }
+
+            
+            .form > .form-group > #message {
+                width:350px;
+            }
+
+        .company-metadata-sidebar-wrapper{
+            width: 300px;
+            margin-top: 50px;
+            align-items: center;
+        }
+
+
+            .pool-shots{
+            background-attachment: scroll;
+            padding: 0px;
+            }
+
+            .faq-wrapper {
+                margin-left:10px;
+                margin-right:10px;
+            }
+
+            .faq-wrapper h1{
+                font-size: 1.25em !important;
+            }
+
+            .faq-wrapper h2{
+                font-size: 1em !important;
+            }
+
+
+}
