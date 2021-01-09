@@ -1,3 +1,17 @@
+@media only screen and (max-width: 1200px) {
+        .navigation-wrapper > .logo-container > .column-wrapper > .right-column-wrapper {
+            width:250px;
+        }
+
+
+        .navigation-wrapper > .logo-container > .column-wrapper > .center-column-wrapper {
+            justify-content:flex-start;
+            width:150px;
+        }
+
+    }
+
+
 
 
 @media only screen and (max-width: 1050px)  {
@@ -25,6 +39,18 @@
         margin-right:10px;
     }
 
+
+    .navigation-wrapper > .logo-container > .column-wrapper > .right-column-wrapper {
+        display:flex;
+        justify-content:flex-end;
+        width:300px;
+    }
+
+    .navigation-wrapper > .logo-container > .column-wrapper > .center-column-wrapper {
+        display:flex;
+        justify-content: center;
+        width:300px;
+    }    
 
   .links-container {
         margin-left: 0px;
@@ -294,23 +320,38 @@
 }
 
 @media only screen and (max-width: 800px) {
-
+    .left-column{
+        min-width:150px;
+    }
     .navigation-wrapper > .logo-container > .column-wrapper > .left-column-wrapper > .left-column > .icon {
         margin-right: 1px;
     }
 
+
+
     .phone-number {
-        font-size: .8em;
+        font-size: 1.1em;
     }
 
     .call-me {
-        font-size: .7em;
+        font-size: .8em;
+    }
+
+    .hours-time {
+        font-size: 1.1em;
+    }
+
+    .hours-dow {
+        font-size: .8em;
     }
 
     .navigation-wrapper > .logo-container > .column-wrapper > .right-column-wrapper > .right-column > .sharing-title {
         display: none;
     }
-
+    
+    .navigation-wrapper > .logo-container > .column-wrapper > .right-column-wrapper > .right-column >.fb-share-button {
+        margin-top: 0px;  
+      }
 
     .map iframe{
         width:500px; 
@@ -323,4 +364,4 @@
     .map iframe{
         width:300px; 
     }
-    
+}

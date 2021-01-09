@@ -331,8 +331,6 @@
         .call-me{
             font-family: 'Ubuntu Condensed', sans-serif;
             font-size: .9em;
-            
-
         }
         .navigation-wrapper > .logo-container > .column-wrapper > .left-column-wrapper > .left-column > .icon > .fa-phone-volume {
             color: rgb(6, 216, 205);
@@ -357,13 +355,13 @@
         
         .hours-time {
             font-family: 'Ubuntu Condensed', sans-serif;
-            font-size: 1em;
+            font-size: 1.2em;
         }
 
 
         .hours-dow{
             font-family: 'Ubuntu Condensed', sans-serif;
-            font-size: 0.8em;
+            font-size: .9em;
         }
 
 
@@ -959,7 +957,7 @@
     }
 
     .thankyou-pool{
-        display;flex;
+        display:flex;
         justify-content: center;
         border: 1px solid#06d8cd;
     }

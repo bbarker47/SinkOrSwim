@@ -1,16 +1,16 @@
 /* =======  index.html ======= */
 .navigation-wrapper{border: 1px transparent black;}
 
-.logo-container {border: 3px transparent royalblue;}
-.navigation-wrapper > .logo-container > .column-wrapper{border: 3px transparent red;}
+.logo-container {border: 1px transparent royalblue;}
+.navigation-wrapper > .logo-container > .column-wrapper{border: 1px transparent red;}
 
 
 
 
 .navigation-wrapper > .logo-container > .column-wrapper > .left-column-wrapper {border: 3px solid orange;}
-.navigation-wrapper > .logo-container > .column-wrapper > .left-column-wrapper > .left-column {border: 3px solid blue;}
-.navigation-wrapper > .logo-container > .column-wrapper > .left-column-wrapper > .left-column > .icon {border: 3px solid green;}
-.navigation-wrapper > .logo-container > .column-wrapper > .left-column-wrapper > .left-column > .contact-hours-wrapper{border: 3px solid pink;}
+.navigation-wrapper > .logo-container > .column-wrapper > .left-column-wrapper > .left-column {border: 1px solid blue;}
+.navigation-wrapper > .logo-container > .column-wrapper > .left-column-wrapper > .left-column > .icon {border: 1px solid green;}
+.navigation-wrapper > .logo-container > .column-wrapper > .left-column-wrapper > .left-column > .contact-hours-wrapper{border: 1px solid pink;}
 .navigation-wrapper > .logo-container > .column-wrapper > .left-column-wrapper > .left-column > .contact-hours-wrapper > .phone{border: 1px solid yellowgreen;}
 .navigation-wrapper > .logo-container > .column-wrapper > .left-column-wrapper > .left-column > .contact-hours-wrapper > .phone > .phone-number{border: 1px solid red;}
 .navigation-wrapper > .logo-container > .column-wrapper > .left-column-wrapper > .left-column > .contact-hours-wrapper > .phone > .call-me{border: 1px solid black;}
@@ -18,19 +18,27 @@
 
 
 
-.navigation-wrapper > .logo-container > .banner-image-wrapper {border: 3px solid violet;}
-.navigation-wrapper > .logo-container > .banner-image-wrapper > .banner-image {border: 3px solid blue;}
+
+.navigation-wrapper > .logo-container > .banner-image-wrapper {border: 1px solid violet;}
+.navigation-wrapper > .logo-container > .banner-image-wrapper > .banner-image {border: 1px solid blue;}
+
+
+.navigation-wrapper > .logo-container > .column-wrapper > .center-column-wrapper{border: 3px solid blue;}
+.navigation-wrapper > .logo-container > .column-wrapper > .center-column-wrapper > .center-column {border: 1px solid red;}
+.navigation-wrapper > .logo-container > .column-wrapper > .center-column-wrapper > .center-column > .hours{border: 1px solid gold;}
+.navigation-wrapper > .logo-container > .column-wrapper > .center-column-wrapper > .center-column > .hours > .hours-time{border: 1px solid green;}
+.navigation-wrapper > .logo-container > .column-wrapper > .center-column-wrapper > .center-column > .hours > .hours-dow{border: 1px solid pink;}
 
 
 .navigation-wrapper > .logo-container > .column-wrapper > .right-column-wrapper {border: 3px solid green;}
-.navigation-wrapper > .logo-container > .column-wrapper > .right-column-wrapper > .right-column {border: 3px solid red;}
-.navigation-wrapper > .logo-container > .column-wrapper > .right-column-wrapper > .right-column >.sharing-title {border: 3px solid blue;}
-.navigation-wrapper > .logo-container > .column-wrapper > .right-column-wrapper > .right-column > .fb-share-button {border: 3px solid green;}
+.navigation-wrapper > .logo-container > .column-wrapper > .right-column-wrapper > .right-column {border: 1px solid red;}
+.navigation-wrapper > .logo-container > .column-wrapper > .right-column-wrapper > .right-column >.sharing-title {border: 1px solid blue;}
+.navigation-wrapper > .logo-container > .column-wrapper > .right-column-wrapper > .right-column > .fb-share-button {border: 1px solid green;}
 
-.navigation-wrapper > .logo-container > .column-wrapper > .right-column-wrapper > .right-column > .address-wrapper {border: 3px solid green;}
+.navigation-wrapper > .logo-container > .column-wrapper > .right-column-wrapper > .right-column > .address-wrapper {border: 1px solid green;}
 
 
-.navigation-wrapper > .logo-container > .column-wrapper > .right-column-wrapper > .right-column > .contact-icon {border: 3px solid pink;}
+.navigation-wrapper > .logo-container > .column-wrapper > .right-column-wrapper > .right-column > .contact-icon {border: 1px solid pink;}
 
  .links-container {border: 1px transparent green;}
  .links-container > .nav-link{border: 1px transparent black;}
@@ -62,12 +70,12 @@
 
 /* =====  about.html ====== */
 
-.page-header{border: 3px transparent black;}    
-.skewed-header {border: 3px transparent red;}
+.page-header{border: 1px transparent black;}    
+.skewed-header {border: 1px transparent red;}
         .header-bg {border: 1px transparent black;}
-        .skewed-header-wrapper {border: 3px transparent purple;}
+        .skewed-header-wrapper {border: 1px transparent purple;}
             .skewed-header-content {border: 1px transparent black;}
-                .heading-wrapper {border: 3px transparent black;}
+                .heading-wrapper {border: 1px transparent black;}
     .about-links-wrapper {border: 1px transparent black;}
         .about-nav-link {border: 1px transparent black;}
     
@@ -93,8 +101,8 @@
 
 
 .maintain-title{border: 2px transparent pink}
-.maintain-wrapper{border: 3px solid red}
-.outer-maintain-wrapper{border: 3px solid purple}
+.maintain-wrapper{border: 1px solid red}
+.outer-maintain-wrapper{border: 1px solid purple}
 
 
 
